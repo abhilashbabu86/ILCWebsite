@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple vector logo placeholder for ILC -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <g font-family="Montserrat, Arial, sans-serif" font-weight="800">
+	<text x="12" y="40" font-size="32" fill="#391e86">ILC</text>
+  </g>
+  <g>
+	<rect x="110" y="14" width="110" height="32" rx="6" fill="#391e86" />
+	<text x="136" y="36" font-family="Poppins, Arial, sans-serif" font-size="12" fill="#fff">Indian Logistics Company</text>
+  </g>
+</svg>

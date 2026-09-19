@@ -67,7 +67,12 @@
   <!-- ============== HERO ============== -->
   <section id="home" class="hero">
     <div class="hero-bg">
-      <img src="assets/hero-image.png" alt="Multimodal logistics — air, sea, rail and road" />
+      <picture>
+        <!-- responsive picture: serve appropriate image for smaller viewports if available -->
+        <source media="(max-width: 767px)" srcset="assets/hero-image.png" />
+        <source media="(max-width: 767px)" srcset="assets/hero-image.svg" />
+        <img src="assets/hero-image.svg" alt="Multimodal logistics — air, sea, rail and road" loading="lazy" decoding="async" />
+      </picture>
       <div class="hero-overlay"></div>
     </div>
 
