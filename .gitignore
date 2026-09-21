@@ -1,0 +1,20 @@
+.vs/
+bin/
+obj/
+node_modules/
+*.user
+*.suo
+*.userprefs
+*.log
+*.tmp
+*.cache
+Thumbs.db
+desktop.ini
+*.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Build outputs
+/dist/
+/out/
