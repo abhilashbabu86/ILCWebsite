@@ -36,13 +36,13 @@ python3 -m http.server 8000
 
 ## 📧 IMPORTANT — One-time email setup
 
-Forms are wired to **FormSubmit.co** (free, no signup, no API key) — they forward submissions straight to `hello@indianlogisticscompany.com`.
+Forms are wired to **FormSubmit.co** (free, no signup, no API key) — they forward submissions straight to `info@ilcind.com`.
 
 **To activate it (do this ONCE):**
 
 1. Deploy the site (or test locally with `python3 -m http.server`).
 2. Open the website and submit ANY form (the footer form is the quickest — use real test data).
-3. **Check `hello@indianlogisticscompany.com` inbox** — you'll receive a confirmation email from FormSubmit titled *"Confirm your email"*.
+3. **Check `info@ilcind.com` inbox** — you'll receive a confirmation email from FormSubmit titled *"Confirm your email"*.
 4. Click the **"Confirm your email"** link in that email.
 5. ✅ Done! From now on, every form submission will arrive in that inbox.
 
@@ -53,7 +53,7 @@ That's it. There's nothing to install, no API key, no monthly fee. FormSubmit's 
 Open `script.js` and change this line at the top:
 
 ```js
-const FORM_EMAIL = 'hello@indianlogisticscompany.com';
+const FORM_EMAIL = 'info@ilcind.com';
 ```
 
 You'll need to re-confirm if you change it.
@@ -82,7 +82,7 @@ Swap `FORM_ENDPOINT` in `script.js` for one of these (no other code changes need
 - ✅ Footer "Get in Touch" inline form
 - ✅ Floating WhatsApp button (bottom-right, pulses gently)
 - ✅ Scroll-reveal animations on service cards, industries, etc.
-- ✅ Form submissions delivered as email to `hello@indianlogisticscompany.com`
+- ✅ Form submissions delivered as email to `info@ilcind.com`
 - ✅ Loading states + success/error messages on forms
 - ✅ Click outside or press `Esc` to close popups
 - ✅ Accessible (ARIA labels, keyboard support)
@@ -103,7 +103,7 @@ Edit these in `styles.css` at the top (`:root`).
 All hardcoded in `index.html` — search for and replace:
 - Phone: `+919159147147` (used in `tel:` and `wa.me/` links — keep this format, no spaces)
 - Display phone: `+91 91591 47147`
-- Email: `hello@indianlogisticscompany.com`
+- Email: `info@ilcind.com`
 - Address: in the footer's "CONTACT US" column
 
 ## 🔗 Nav links

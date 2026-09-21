@@ -10,9 +10,9 @@
   // Forms are submitted via FormSubmit.co — a free service that forwards
   // form submissions to your email. No signup is needed; the FIRST time
   // a form is submitted, FormSubmit will send a confirmation email to
-  // Info.indianlogisticscompany@gmail.com — click the link in that email once
+  // info@ilcind.com — click the link in that email once
   // to activate. After that, every submission arrives in your inbox.
-  const FORM_EMAIL = 'Info.indianlogisticscompany@gmail.com';
+  const FORM_EMAIL = 'info@ilcind.com';
   const FORM_ENDPOINT = 'https://formsubmit.co/ajax/' + FORM_EMAIL;
 
   // ============== DOM REFS ==============
